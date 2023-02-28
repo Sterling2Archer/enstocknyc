@@ -1,14 +1,14 @@
 import React from 'react';
-import Main from "../components/Main";
+import Buying from '../components/Buying';
 import Footer from '../components/Footer';
 
-const Home = () => {
+const Orders = () => {
   return (
     <div>
-        <Main />
+        <Buying />
         <Footer />
     </div>
   )
 };
 
-export default Home;
+export default Orders;
