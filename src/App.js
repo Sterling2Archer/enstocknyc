@@ -1,0 +1,22 @@
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import Home from './routes/Home';
+import Orders from './routes/Orders';
+import About from './routes/About';
+import Contacting from "./routes/Contacting";
+
+
+function App() {
+  return (
+    <>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/orders' element={<Orders />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/contacting' element={<Contacting />} />
+      </Routes>
+    </>
+  )
+};
+
+export default App;
