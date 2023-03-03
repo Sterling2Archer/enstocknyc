@@ -1,0 +1,62 @@
+.App {
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    
+}
+
+.App-logo {
+  height: 70vmin;
+  pointer-events: none;
+  content: center;
+  background-color: transparent;
+  padding: 0rem;
+}
+  
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+    animation: App-logo-spin;
+    animation-duration: 8s;
+  }
+}
+  
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+  
+h1 {
+  font-style: italic;
+  font-family: serif;
+  font-size: 1.5cm;
+  font-style: italic;
+  color: rgb(107, 193, 225);
+  padding: 1rem;
+  
+}
+  
+h2 {
+  font-style: italic;
+  font-family: serif;
+  font-size: 0.8cm;
+  color: rgb(107, 193, 225);
+  padding: 0rem;
+}
+
+
+
+.moments {
+  font-size: 0.4cm;
+  color: rgb(122, 119, 119);
+  font-family: serif;
+  text-align: center;
+  margin: auto;
+  padding: 0rem;
+}
+
